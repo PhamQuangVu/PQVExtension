@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public extension String {
     func pqvGenerateQRCode() -> UIImage? {

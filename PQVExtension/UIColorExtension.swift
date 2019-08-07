@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public extension UIColor {
     static func pqvColorFromRGB(red: CGFloat, green: CGFloat, blue: CGFloat, alpha : CGFloat) -> UIColor {
