@@ -13,3 +13,10 @@ public extension Array {
         self = self.filter({$0 as? T != obj})
     }
 }
+
+public extension Array where Element == String.ProjectInputStringRegex {
+    func joinValue() -> String {
+        let rawValues = self.map({$0.rawValue})
+        return "[\(rawValues.joined())]"
+    }
+}

@@ -16,6 +16,9 @@ class TestViewController: UIViewController {
         super.viewDidLoad()
         setupCollectionView()
         // Do any additional setup after loading the view.
+        
+        let testString = "☆aa"
+        print("xx \(testString.validWithInputRegexs(regex: String.japaneseRegex))")        
     }
 
 
