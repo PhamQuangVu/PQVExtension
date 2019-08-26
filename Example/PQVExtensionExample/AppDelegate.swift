@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         let testVC = TestViewController(nibName: TestViewController.pqvDefaultIdentifier(), bundle: nil)
         
         let navi = UINavigationController.init(rootViewController: testVC)
-        navi.setNavigationBarHidden(true, animated: false)
+        //navi.setNavigationBarHidden(true, animated: false)
         
         window.rootViewController = navi
         return true

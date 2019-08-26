@@ -16,6 +16,10 @@
 		970A32E522FAB49C00BCCB3F /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970A32E322FAB49C00BCCB3F /* TestViewController.xib */; };
 		970A32E822FAB54600BCCB3F /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970A32E622FAB54600BCCB3F /* TestCollectionViewCell.swift */; };
 		970A32E922FAB54600BCCB3F /* TestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970A32E722FAB54600BCCB3F /* TestCollectionViewCell.xib */; };
+		979C98A02313B64C0049CA10 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979C989E2313B64C0049CA10 /* TestTableViewController.swift */; };
+		979C98A12313B64C0049CA10 /* TestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 979C989F2313B64C0049CA10 /* TestTableViewController.xib */; };
+		979C98A62313B6EF0049CA10 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979C98A42313B6EF0049CA10 /* TestTableViewCell.swift */; };
+		979C98A72313B6EF0049CA10 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 979C98A52313B6EF0049CA10 /* TestTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		970A32E322FAB49C00BCCB3F /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		970A32E622FAB54600BCCB3F /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
 		970A32E722FAB54600BCCB3F /* TestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCollectionViewCell.xib; sourceTree = "<group>"; };
+		979C989E2313B64C0049CA10 /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		979C989F2313B64C0049CA10 /* TestTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewController.xib; sourceTree = "<group>"; };
+		979C98A42313B6EF0049CA10 /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		979C98A52313B6EF0049CA10 /* TestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +110,12 @@
 				970A32B322FAAA2B00BCCB3F /* AppDelegate.swift */,
 				970A32E222FAB49C00BCCB3F /* TestViewController.swift */,
 				970A32E322FAB49C00BCCB3F /* TestViewController.xib */,
+				979C989E2313B64C0049CA10 /* TestTableViewController.swift */,
+				979C989F2313B64C0049CA10 /* TestTableViewController.xib */,
 				970A32E622FAB54600BCCB3F /* TestCollectionViewCell.swift */,
 				970A32E722FAB54600BCCB3F /* TestCollectionViewCell.xib */,
+				979C98A42313B6EF0049CA10 /* TestTableViewCell.swift */,
+				979C98A52313B6EF0049CA10 /* TestTableViewCell.xib */,
 				970A32BC22FAAA2E00BCCB3F /* Assets.xcassets */,
 				970A32BE22FAAA2E00BCCB3F /* LaunchScreen.storyboard */,
 				970A32C122FAAA2E00BCCB3F /* Info.plist */,
@@ -242,7 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				970A32C022FAAA2E00BCCB3F /* LaunchScreen.storyboard in Resources */,
+				979C98A12313B64C0049CA10 /* TestTableViewController.xib in Resources */,
 				970A32E522FAB49C00BCCB3F /* TestViewController.xib in Resources */,
+				979C98A72313B6EF0049CA10 /* TestTableViewCell.xib in Resources */,
 				970A32E922FAB54600BCCB3F /* TestCollectionViewCell.xib in Resources */,
 				970A32BD22FAAA2E00BCCB3F /* Assets.xcassets in Resources */,
 			);
@@ -265,6 +279,8 @@
 				970A32E822FAB54600BCCB3F /* TestCollectionViewCell.swift in Sources */,
 				970A32E422FAB49C00BCCB3F /* TestViewController.swift in Sources */,
 				970A32B422FAAA2B00BCCB3F /* AppDelegate.swift in Sources */,
+				979C98A02313B64C0049CA10 /* TestTableViewController.swift in Sources */,
+				979C98A62313B6EF0049CA10 /* TestTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

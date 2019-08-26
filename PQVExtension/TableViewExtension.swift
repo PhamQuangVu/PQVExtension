@@ -24,5 +24,12 @@ public extension UITableView {
             self.register(UINib(nibName: nibName, bundle: bundle), forHeaderFooterViewReuseIdentifier: nibName)
         }
     }
+    
+    func pqvDequeue<T : UITableViewCell>(cellType : T.Type, at indexPath: IndexPath, configBlock : ((T)->())?)-> UITableViewCell {
+        let generalCell = self.dequeueReusableCell(withIdentifier: T.pqvDefaultIdentifier(), for: indexPath)
+        guard let specificCell = generalCell as? T else { return generalCell}
+        configBlock?(specificCell)
+        return specificCell
+    }
 }
 
