@@ -21,6 +21,8 @@
 		970A32A422FA7E0700BCCB3F /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970A32A322FA7E0700BCCB3F /* NSObjectExtension.swift */; };
 		970A32A622FA8BC000BCCB3F /* AlertViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970A32A522FA8BC000BCCB3F /* AlertViewControllerExtension.swift */; };
 		970A32E122FAB09900BCCB3F /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970A32E022FAB09900BCCB3F /* ArrayExtension.swift */; };
+		97EA3FBD2338A56E005FB94B /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA3FBC2338A56E005FB94B /* ViewExtension.swift */; };
+		97EA3FBF2338A57B005FB94B /* LabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA3FBE2338A57B005FB94B /* LabelExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		970A32A322FA7E0700BCCB3F /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
 		970A32A522FA8BC000BCCB3F /* AlertViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewControllerExtension.swift; sourceTree = "<group>"; };
 		970A32E022FAB09900BCCB3F /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		97EA3FBC2338A56E005FB94B /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		97EA3FBE2338A57B005FB94B /* LabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				970A329F22FA798200BCCB3F /* StringExtension.swift */,
 				970A32A122FA79B200BCCB3F /* UIColorExtension.swift */,
 				970A32A322FA7E0700BCCB3F /* NSObjectExtension.swift */,
+				97EA3FBC2338A56E005FB94B /* ViewExtension.swift */,
+				97EA3FBE2338A57B005FB94B /* LabelExtension.swift */,
 				970A327D22FA6FF500BCCB3F /* Info.plist */,
 			);
 			path = PQVExtension;
@@ -230,10 +236,12 @@
 			files = (
 				970A329A22FA760100BCCB3F /* CollectionViewExtension.swift in Sources */,
 				970A32A022FA798200BCCB3F /* StringExtension.swift in Sources */,
+				97EA3FBF2338A57B005FB94B /* LabelExtension.swift in Sources */,
 				970A329C22FA78F100BCCB3F /* CollectionViewCellExtension.swift in Sources */,
 				970A32A222FA79B200BCCB3F /* UIColorExtension.swift in Sources */,
 				970A329422FA704700BCCB3F /* TableViewExtension.swift in Sources */,
 				970A329E22FA795000BCCB3F /* WKWebViewExtension.swift in Sources */,
+				97EA3FBD2338A56E005FB94B /* ViewExtension.swift in Sources */,
 				970A329622FA706700BCCB3F /* TableViewCellExtension.swift in Sources */,
 				970A32A622FA8BC000BCCB3F /* AlertViewControllerExtension.swift in Sources */,
 				970A32A422FA7E0700BCCB3F /* NSObjectExtension.swift in Sources */,
